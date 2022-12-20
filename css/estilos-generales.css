@@ -1,0 +1,34 @@
+* {
+    background-color: rgb(55, 53, 53);
+    color: antiquewhite;
+}
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    order: 1;
+    width: 15%;
+    height: 100vh;
+    padding: 20px;
+    margin: 15px;
+    border-left: 23px black;
+}
+
+
+
+
+header {
+    order: 2;
+}
+section {
+    order: 3;
+}
+footer {
+    order: 4;
+}
