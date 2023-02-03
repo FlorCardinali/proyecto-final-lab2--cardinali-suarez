@@ -1,0 +1,31 @@
+/* contenedor de la barra laterl y el centro de la pagina */
+body {
+    background-color: dimgrey;
+    display: flex;
+    height:100vh;
+    margin: 0px;
+}
+    /* barra lateral hija de body */
+    #lateral {
+        flex-direction: column wrap;
+        width: 15vw;
+        background-color: crimson;
+    }
+        #nav {
+            list-style: none;
+            padding: 0px;
+            display: flex;
+            width: 100%;
+            flex-flow: column wrap;
+            align-items: center;
+        }
+            #nav_li {
+                display: flex;
+                width: 80%;
+                height: 50px;
+                align-content: center;
+                justify-content: center;
+
+                border: 2px solid black;
+            }
+                

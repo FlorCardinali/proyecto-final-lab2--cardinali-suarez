@@ -1,0 +1,44 @@
+/* central, hijo de body */
+#central {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    background-color:rgb(56, 55, 55);
+    width: 100vw;
+    padding: 20px 5px 0px 5px;
+}
+    /* titulo, hijo de cnetral */
+    #titulo {
+        text-align: right;
+        color: antiquewhite;
+        margin-bottom: 10px;
+        margin-right: 50px;
+    }
+    /* contendor de widgets hijo de central */
+    #contenedor-widgets {
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: 50px;
+        justify-content: space-around;
+    }
+        /* widgets hijos de contenedor de widgets */
+        .widget {
+            width: 31%;
+            height: 20vh;
+            min-width: 150px;
+            min-height: 150px;
+            background-color: blanchedalmond;
+            border: 2px black solid;
+            border-radius: 15px;
+            margin-bottom: 1%;
+        }
+    /* footer hijo de central */
+    footer {
+        background-color: rgb(55, 37, 37);
+        color: aliceblue;
+        text-align: center;
+        height: 10vh;
+        padding: 15px;
+    }
+
+
