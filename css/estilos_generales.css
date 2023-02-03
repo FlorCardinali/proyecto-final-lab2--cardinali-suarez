@@ -9,23 +9,24 @@ body {
     #lateral {
         flex-direction: column wrap;
         width: 15vw;
+        min-width: 150px;
         background-color: crimson;
     }
         #nav {
-            list-style: none;
-            padding: 0px;
-            display: flex;
             width: 100%;
+            display: flex;
             flex-flow: column wrap;
             align-items: center;
+            padding: 2px;
         }
-            #nav_li {
-                display: flex;
-                width: 80%;
-                height: 50px;
-                align-content: center;
-                justify-content: center;
-
-                border: 2px solid black;
+            .a_nav {
+                width: 70%;
+                min-width: min-content;
+                padding: 15px;
+                text-decoration: none;
+                color: azure;
+                background-color: brown;
+                border: 2px rgb(44, 13, 13) solid;
+                border-radius: 10px;
             }
                 
