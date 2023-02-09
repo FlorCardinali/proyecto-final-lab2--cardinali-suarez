@@ -26,6 +26,42 @@
             margin-bottom: 1%;
         }
 
+        .tabla2 {
+            margin-top: -2px;
+        }
+
+        .tabla2 th, .tabla2 td{
+            text-align: center;
+            padding: 5px 5px;
+            border: 1px solid black;
+        }
+        
+        .tabla2 caption{
+            text-align: center;
+            margin-bottom: 0px;
+            font-variant: small-caps;
+            font-size: 20px;
+            letter-spacing: 5px;
+        }
+        
+        .tabla2 td{
+            font-size: 12px;
+            padding-bottom: 4.3px;
+            padding-right: 26.3px;
+        }
+        
+        .tabla2 td:hover{
+            background-color: rgb(250, 248, 149);
+            user-select: none;
+            font-size: 20px;
+            text-align: center;
+            padding: 0;
+        }
+        
+        .tabla2 tr:nth-child(3) td:nth-child(3){
+            background-color: rgb(47, 133, 231);
+        }
+
         .widget img{
             width: 100%;
             height: 100%;
