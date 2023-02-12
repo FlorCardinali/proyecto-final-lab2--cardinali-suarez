@@ -2,13 +2,11 @@
 body {
     background-color: dimgrey;
     display: flex;
-    /* height:100vh; */
     margin: 0px;
 }
     /* barra lateral hija de body */
     #lateral {
         flex-direction: column wrap;
-        /* height: 80%; */
         width: 15vw;
         min-width: 140px;
         background-color: rgb(16, 0, 238);
@@ -35,12 +33,12 @@ body {
                 font-size: large;
                 color: azure;
                 background-color: rgb(16, 0, 238);
-                border-bottom: 1px rgb(44, 13, 13) solid;
+                border-bottom: 1px rgb(22, 13, 43) solid;
                 transition-property: text-align, background-color;
                 transition-duration: 1.2s;
             }
                 .a_nav:hover {  
-                    background-color: rgb(56, 22, 22);
+                    background-color: rgb(47, 38, 176);
                     text-align: center;
                     font-size: xx-large;
                 }
