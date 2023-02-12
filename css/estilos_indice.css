@@ -10,13 +10,13 @@
     #contenedor-widgets {
         display: flex;
         flex-flow: row wrap;
-        margin-left: 50px;
+        margin-left: 5px;
         justify-content: space-around;
     }
         /* widgets hijos de contenedor de widgets */
         .widget {
-            width: 31%;
-            height: 20vh;
+            width: 340px;
+            height: 25vh;
             min-width: 150px;
             min-height: 200px;
             opacity: 85%;
@@ -33,13 +33,13 @@
 
             .tabla th, .tabla td{
                 text-align: center;
-                padding: 4px 1px;
+                padding: 4px 3px;
                 border: 1px solid black;
             }
         
             .tabla caption{
                 text-align: center;
-                margin-bottom: 0px;
+                margin-bottom: 1px;
                 font-variant: small-caps;
                 font-size: 20px;
                 letter-spacing: 5px;
