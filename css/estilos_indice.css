@@ -26,17 +26,18 @@
             margin-bottom: 1%;
         }
             /* widget 1 */
-            .tabla2 {
-                margin-top: -2px;
+            .tabla {
+                margin-top: 2px;
+                margin-left: 4px;
             }
 
-            .tabla2 th, .tabla2 td{
+            .tabla th, .tabla td{
                 text-align: center;
-                padding: 5px 5px;
+                padding: 4px 1px;
                 border: 1px solid black;
             }
         
-            .tabla2 caption{
+            .tabla caption{
                 text-align: center;
                 margin-bottom: 0px;
                 font-variant: small-caps;
@@ -44,13 +45,13 @@
                 letter-spacing: 5px;
             }
         
-            .tabla2 td{
+            .tabla td{
                 font-size: 12px;
                 padding-bottom: 4.3px;
                 padding-right: 26.3px;
             }
         
-            .tabla2 td:hover{
+            .tabla td:hover{
                 background-color: rgb(250, 248, 149);
                 user-select: none;
                 font-size: 20px;
@@ -58,7 +59,7 @@
                 padding: 0;
             }
         
-            .tabla2 tr:nth-child(3) td:nth-child(3){
+            .tabla tr:nth-child(3) td:nth-child(3){
                 background-color: rgb(47, 133, 231);
             }
 
@@ -70,11 +71,15 @@
             font-size: 40px;
             font-weight: bold;
         }
-            .widget img{
-                width: 100%;
-                height: 100%;
+
+        /* widget 3 - 4 */
+        .widget img{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
             }
-    
  
 
 
