@@ -1,0 +1,11 @@
+.datos {
+    display: flex;
+    flex-flow: column wrap;
+    color: azure;
+}
+    .fotoPerfil img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        font-size: small;
+    }
