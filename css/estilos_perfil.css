@@ -1,11 +1,32 @@
-.datos {
+
+.contenedorPerfil {
+    width: 82.8vw;
+    min-height: 85vh;
+    border-radius: 10px;
+    margin: 1vw;
+    background-color: blanchedalmond;
+    opacity: 85%;
     display: flex;
-    flex-flow: column wrap;
-    color: azure;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
-    .fotoPerfil img{
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        object-fit: cover;
-    }
+        #fotoPerfil {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .datosUsuario {
+            display: flex;
+            flex-flow: column nowrap;
+            color: rgb(1, 8, 12);
+            align-self:flex-start;
+            margin-left: 15px;
+            align-items: flex-start; 
+            font-size: xx-large;
+        }
+
+  
+       
+    
