@@ -1,31 +1,45 @@
 
 .contenedorPerfil {
-    width: 82.8vw;
+    width: 78.8vw;
     min-height: 85vh;
     border-radius: 10px;
     margin: 1vw;
+    padding: 2vw;
     background-color: blanchedalmond;
     opacity: 85%;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
 }
-        #fotoPerfil {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
+            /* fotoPerfil hijo de perfil */
+            #fotoPerfil {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        /* datosUsuario hijo de contenedorPerfil */
         .datosUsuario {
             display: flex;
             flex-flow: column nowrap;
             color: rgb(1, 8, 12);
             align-self:flex-start;
-            margin-left: 15px;
-            align-items: flex-start; 
-            font-size: xx-large;
+            justify-content: flex-start; 
+            font-size: x-large;
+            gap: 15px;
         }
+            .dato {
+                min-width: 70vw;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-between;
+                padding-top: 10px;
+                border-top: 2px solid darkkhaki;
+            }
+                .dato * {
+                    margin: 0%;
+                }
 
   
        

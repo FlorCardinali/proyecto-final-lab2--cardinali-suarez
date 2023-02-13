@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/estilos_generales.css">
     <link rel="stylesheet" href="css/estilos_perfil.css">
+    <script src="js/script.js"></script>
 </head>
 <body>
 
@@ -28,31 +29,52 @@
         <!-- portada, hijo de central -->
         <div class="contenedorPerfil">
             <!-- foto de perfil, hija de cnetral -->
-            <img id="fotoPerfil" src="img/foto-perfil-300x210.jpg">  
+            <div id="perfil">
+                <img id="fotoPerfil" src="img/foto-perfil-300x210.jpg">  
+                <h2 id="nombrePerfil">Adminitrador</h2>
+            </div>
             
-            <!-- usuario, hijo de central -->
-            <h2 class="usuario">Adminitrador</h2>
-
              <!-- datos editables, hijo de central -->
             <div class="datosUsuario">
 
-                <div class="dato" id="nombre">
-                    Nombre: Admin
+                <div class="dato">
+                    <p id="perfil-nombre">Nombre: Admin</p>
+                    <button type="button" id="editar-nombre">Editar</button>
+                    
+                    <input type="text" id="nombre-input" value="Admin" style="display: none;">
+                    <button type="button" id="guardar-nombre" style="display: none;">Guardar</button>
+                    
                 </div> 
-                <div class="dato" id="edad">
-                    Edad: 99
+                <div class="dato">
+                    <p id="perfilEdad">Edad: 99</p> 
+                    <button type="button" id="editarEdad">Editar</button>
+                    
+                    <input type="number" id="edad-input" value="99" style="display: none;">
+                    <button type="button" id="guardar-edads" style="display: none;">Guardar</button>
+                    
                 </div>
-                <div class="dato" id="email">
-                    E-mail: admin@gmail.com
+                <div class="dato">
+                    <p id="perfilEdad">E-mail: admin@gmail.com</p>
+                    <button type="button" id="editarEmail">Editar</button> 
+                    
+                    <input type="email" id="emai-input" value="admin@gmail.com" style="display: none;">
+                    <button type="button" id="guardar-email" style="display: none;">Guardar</button>
+                    
                 </div>
-                <div class="dato" id="cumpleanios">
-                Fecha de nacimiento: 16/10/1997 
+                <div class="dato">
+                    <p id="perfilCumpleanios">Fecha de nacimiento: 16/10/1997 </p> 
+                    <button type="button" id="editarCumple">Editar</button>
+                    
+                    <input type="date" id="cumple-input" style="display: none;">
+                    <button type="button" id="guardar-cumple" style="display: none;">Guardar</button>
+                  
                 </div>
-                <div class="dato" id="signo">
-                    Signo: Libra
+                <div class="dato">
+                    <p id="perfilSigno">Signo: Libra</p> 
                 </div>
-
+                
             </div>
+            <!-- boton paa editar -->
         </div>
       
 
@@ -84,7 +106,7 @@
         </footer> 
     
     </div> <!-- cierre div central -->
-
+    
 </body>
 </html>
  
