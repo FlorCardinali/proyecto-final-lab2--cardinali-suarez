@@ -80,6 +80,17 @@
                 width: 100%;
                 height: 100%;
                 }
+            
+            /* Reloj */
+            .contenedor-reloj {
+                text-align: center;
+            }
+            
+            .contenedor-reloj h1 {
+                font-size: 75px;
+                font-weight: 400;
+                font-family: 'lato';
+            }
  
 
 

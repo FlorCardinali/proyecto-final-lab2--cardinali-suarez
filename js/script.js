@@ -1,9 +1,8 @@
-// var botonNom = document.getElementsById("editar-nombre");
+const time = document.getElementById('time');
 
-// botonNom.addEventListener("mousedown", event => {
-//     let formNom = document.getElementsById("form-nombre");
-//     formNom.style.display =  "flex";
-//     let perfilNom = document.getElementsById("perfil-nombre");
-//     perfilNom.style.display= "none";
-//     botonNom.style.display= "none";
-// })
+const interval = setInterval(() => {
+
+    const local = new Date();  
+    time.innerHTML = local.toLocaleTimeString();
+
+}, 1000);
