@@ -30,6 +30,10 @@
             border: 2px black solid;
             border-radius: 15px;
         }
+            .widget:hover {
+                background-color: rgb(217, 194, 162);
+            }
+
             /* widget 1 */
             .tabla {
                 margin-top: 2px;
