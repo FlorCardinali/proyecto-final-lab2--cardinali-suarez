@@ -11,11 +11,10 @@ body {
     /* barra lateral hija de body */
     #lateral {
         flex-direction: column wrap;
-        width: 15vw;
+        width: 13.8vw;
         min-width: 140px;
         min-height: 100vh;
         background-color: rgb(16, 0, 238);
-        
     }
         /* nav, hijo de lateral */
         #nav {

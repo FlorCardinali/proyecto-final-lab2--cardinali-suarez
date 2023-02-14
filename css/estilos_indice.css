@@ -3,7 +3,6 @@
     #titulo {
         text-align: right;
         color: antiquewhite;
-        margin-bottom: 10px;
         margin-right: 50px;
     }
     /* contendor de widgets hijo de central */
@@ -11,19 +10,25 @@
         display: flex;
         flex-flow: row wrap;
         margin-left: 5px;
-        justify-content: space-around;
+        justify-content:space-evenly;
+        margin: 10px;
+        gap: 10px;
     }
         /* widgets hijos de contenedor de widgets */
         .widget {
             width: 340px;
-            height: 25vh;
+            height: 20vh;
             min-width: 150px;
             min-height: 200px;
             opacity: 85%;
+            padding: 1vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column wrap;
             background-color: blanchedalmond;
             border: 2px black solid;
             border-radius: 15px;
-            margin-bottom: 1%;
         }
             /* widget 1 */
             .tabla {
@@ -65,14 +70,23 @@
 
             /* widget 2 */
             .personal {
-                flex-direction: column;
-                text-align: center;
                 justify-content: center;
-                font-size: 40px;
+                font-size: 50px;
                 font-weight: bold;
             }
-
-            /* widget 3 - 4 - 5 - 6 - 7 - 9*/
+                .personal p {
+                    margin: 0%;
+                }
+            /* widget 4 */
+            #widget-meter {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+            }
+                #widget-meter * {
+                    font-size: 27px;
+                }
+            /* widget 3 - 5 - 6 - 7 - 9*/
             .widget img{
                 display: flex;
                 text-align: center;

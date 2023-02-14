@@ -35,6 +35,7 @@
 
             <!-- contenedor de los widgets -->
             <div id="contenedor-widgets">
+                <!-- widget 1 -->
                 <div class="widget fecha">
                     <table class="tabla">
                         <thead>
@@ -98,28 +99,62 @@
                         </tbody>
                       </table>
                 </div>
+                <!-- widget 2 -->
                 <div class="widget personal">
+                    <p>EMPLEADOS:</p>
                     <p>2401</p>
-                    <p>EMPLEADOS</p>
                 </div>
+                <!-- widget 3 -->
                 <div class="widget">
                     <img src="img/genero.png">
                 </div>
-                <div class="widget">
-                    <img src="img/Funcion.png">
+                <!-- widget 4 -->
+                <div class="widget" id="widget-meter">
+                    <!-- <img src="img/Funcion.png"> -->
+                    <div class="meter">
+                       <label for="incidentes">Icidentes del mes:</label>
+                        <meter 
+                            id="incidentes" 
+                            min="0" max="100" 
+                            low="35" 
+                            high="15" 
+                            optimum="0" 
+                            value="52">
+                        </meter>
+                        <label for="empleados-activos">52 incidentes</label>
+                    </div>
+                 
+                    <div class="meter">
+                        <label for="empleados-activos">Empleados activos:</label>
+                        <meter id="empleados-activos" 
+                            min="0" 
+                            max="2401" 
+                            low="2000" 
+                            high="2300" 
+                            optimum="2401" 
+                            value="2225">
+                        </meter>
+                        <label for="empleados-activos">2225/2401</label>
+                    </div>
+
                 </div>
+                <!-- widget 5 -->
                 <div class="widget">
                     <img src="img/Localidad.png">
                 </div>
+                <!-- widget 6 -->
                 <div class="widget">
                     <img src="img/Modalidad.png">
                 </div>
+                <!-- widget 7 -->
                 <div class="widget">
                     <img src="img/Tiempo.png">
                 </div>
+                <!-- widget 8 -->
                 <div class="widget contenedor-reloj">
                     <h1 id="time">00:00:00</h1>
                 </div>
+                <!-- widget 9 -->
                 <div class="widget">
                     <img src="img/Estudios.png">
                 </div>
